@@ -90,9 +90,10 @@ const Header = () => {
         <li>Gowning</li>
         <li>Graduation Photography</li>
       </ul>
-		       <Link to="/email">
+		       
       		       <ButtonContainer ref={ref}>
 						<ButtonWrapper>
+							<Link to="/email">
 							<HeroButton onClick={toggleModal} className={inView ? '' : 'corner'}>
 							
 								{inView ? (
@@ -101,9 +102,9 @@ const Header = () => {
 									<FiMail color="orange" size="2rem" />
 								)}
 							</HeroButton>
+							</Link>
 						</ButtonWrapper>
 					</ButtonContainer>
-				</Link>
     </div>
 
     <div className="gpt3__header-image">

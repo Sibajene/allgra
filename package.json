@@ -4,11 +4,18 @@
   "description": "graduation services",
   "main": "index.js",
   "scripts": {
+    "build":"cd back && npm install && cd ../front && npm install && npm run build",
+    "start": "node back/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sibajene/allgra.git"
   },
   "author": "sibajene",
   "license": "ISC",
-  "dependencies": {
-    "bcryptjs": "^2.4.3"
-  }
+  "bugs": {
+    "url": "https://github.com/Sibajene/allgra/issues"
+  },
+  "homepage": "https://github.com/Sibajene/allgra#readme"
 }

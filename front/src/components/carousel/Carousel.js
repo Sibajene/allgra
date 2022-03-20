@@ -41,7 +41,7 @@ const Carousel = () => {
             <TextWrapper size="0.9rem" margin="0.7rem" color="#4f4f4f">
               {el.description}
             </TextWrapper>
-            <Link to="/possibility">
+            <Link to="/email">
               <CardButton>Graduation Enquiry</CardButton>
             </Link>
           </ImageWrapper>

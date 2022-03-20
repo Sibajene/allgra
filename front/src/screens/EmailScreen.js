@@ -35,7 +35,7 @@ function EmailScreen() {
   return (
     <div className="App">
       <ToastContainer position="bottom-center" limit={1} />
-      <header className="App-header">
+      <header className="headers2">
         <form onSubmit={submitHandler}>
           <h1 className='gradient__text'>Send Us Email</h1>
           <div>
