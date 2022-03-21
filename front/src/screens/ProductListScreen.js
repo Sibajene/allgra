@@ -179,6 +179,7 @@ export default function ProductListScreen() {
                   <td>{product.brand}</td>
                   <td>
                     <Button
+                    className='bg-success'
                       type="button"
                       variant="light"
                       onClick={() => navigate(`/admin/product/${product._id}`)}
@@ -187,6 +188,7 @@ export default function ProductListScreen() {
                     </Button>
                     &nbsp;
                     <Button
+                    className='bg-danger'
                       type="button"
                       variant="light"
                       onClick={() => deleteHandler(product)}
@@ -201,7 +203,7 @@ export default function ProductListScreen() {
           <div>
             {[...Array(pages).keys()].map((x) => (
               <Link
-                className={x + 1 === Number(page) ? 'btn text-bold' : 'btn'}
+                className={x + 1 === Number(page) ? 'btn text-white' : 'btn text-white'}
                 key={x + 1}
                 to={`/admin/products?page=${x + 1}`}
               >

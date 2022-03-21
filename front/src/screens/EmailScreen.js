@@ -36,7 +36,7 @@ function EmailScreen() {
     <div className="App">
       <ToastContainer position="bottom-center" limit={1} />
       <header className="headers2">
-        <form onSubmit={submitHandler}>
+        <form onSubmit={submitHandler} className="form2">
           <h1 className='gradient__text'>Send Us Email</h1>
           <div>
             <label className='text-white' htmlFor="email">Email</label>
@@ -65,7 +65,7 @@ function EmailScreen() {
           </div>
           <div>
             <label></label>
-            <button className='bg-info' disabled={loading} type="submit">
+            <button className='bg-warning' disabled={loading} type="submit">
               {loading ? 'Sending...' : 'Submit'}
             </button>
           </div>

@@ -105,25 +105,25 @@ a {
   font-size: calc(10px + 2vmin);
 }
 
-form > div {
+.form2 > div {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 1rem;
 }
-form > div > label {
-  margin: 1rem;
+.form2 > div > label {
+  margin: 0.1rem;
 }
-form > div > input,
-form > div > textarea {
+.form2 > div > input,
+.form2 > div > textarea {
   padding: 0.5rem;
   min-width: 20rem;
 }
-.bg-info{
+.bg-warning{
   border-radius: 10%;
-  color: #FF4820;
+  font-size: medium;
 }
 .bg-info:hover{
-  background: blanchedalmond;
-  color: #7a6a66;
+  background: rgb(245, 91, 1);
+  color: #ffffff;
 }
